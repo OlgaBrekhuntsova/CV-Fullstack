@@ -1,6 +1,7 @@
 ul {
   list-style: none;
   padding-left: 0;
+  margin: 0;
 }
 a {
   text-decoration: none;
@@ -24,7 +25,6 @@ img {
   margin-bottom: 27px;
   font-weight: 700;
 }
-
 .bio-projects {
   color: #595959;
   font-size: 14px;
@@ -38,13 +38,6 @@ img {
   line-height: 24px;
   font-weight: 400;
   padding-left: 16px;
-}
-.projects-title {
-  font-size: 22px;
-  line-height: 1.091;
-  color: #2a2a2a;
-  margin-bottom: 14px;
-  font-weight: 700;
 }
 
 .portfolio-link {
@@ -62,6 +55,7 @@ img {
   color: #ff6b08;
 }
 
+.summary-title,
 .jobs-title {
   color: #2a2a2a;
   font-size: 22px;
@@ -71,6 +65,7 @@ img {
   height: 12px;
 }
 
+.projects-title,
 .jobs-occupation {
   color: #2a2a2a;
   height: 8px;
@@ -182,6 +177,8 @@ img {
 
 .photototal {
   position: relative;
+  margin-left: -40px;
+  margin-right: -10px;
 }
 .back {
   background-image: url(/my_cv/img/back2.png);
@@ -207,6 +204,7 @@ img {
   font-size: 14px;
   line-height: 1.714;
   color: #fff;
+  margin-bottom: 10px;
 }
 
 .contacts-link {
@@ -268,15 +266,8 @@ img {
 
 .photo,
 .contacts,
-.skills,
-.widget {
+.skills {
   margin-bottom: 50px;
-}
-
-.contacts,
-.skills,
-.widget {
-  padding-left: 40px;
 }
 
 .photo:hover {
@@ -301,6 +292,10 @@ img {
   color: #fff;
   width: 370px;
   min-height: 370px;
+  padding-left: 40px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 
 .right-side {
@@ -310,13 +305,12 @@ img {
   padding-bottom: 68px;
   width: 830px;
 }
-
-.contacts,
-.skills {
-  padding-left: 40px;
-}
+/* .widget {
+  display: none;
+} */
 
 .widget-link {
+  display: inline-block;
   font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
