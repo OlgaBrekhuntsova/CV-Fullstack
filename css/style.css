@@ -56,7 +56,8 @@ img {
 }
 
 .summary-title,
-.jobs-title {
+.jobs-title,
+.education-title {
   color: #2a2a2a;
   font-size: 22px;
   line-height: 24px;
@@ -119,15 +120,6 @@ img {
 
 .accent {
   color: #ff6b08;
-}
-
-.education-title {
-  color: #2a2a2a;
-  font-size: 22px;
-  line-height: 24px;
-  margin-bottom: 26px;
-  font-weight: 700;
-  height: 12px;
 }
 
 .education-degree {
