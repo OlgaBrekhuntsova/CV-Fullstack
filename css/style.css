@@ -5,6 +5,7 @@ ul {
 }
 a {
   text-decoration: none;
+  color: rgb(0, 0, 238);
 }
 
 img {
@@ -14,7 +15,7 @@ img {
   font-size: 45px;
   color: #2a2a2a;
   line-height: 2;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   font-weight: 700;
 }
 
@@ -35,7 +36,7 @@ img {
 .projects-list {
   color: #595959;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.4;
   font-weight: 400;
   padding-left: 16px;
 }
@@ -104,7 +105,7 @@ img {
 .experience-itemlist {
   color: #595959;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.4;
   margin-bottom: 10px;
   font-weight: 400;
   padding-left: 16px;
@@ -125,26 +126,25 @@ img {
 .education-degree {
   color: #2a2a2a;
   font-size: 16px;
-  line-height: 1.5;
-  margin-bottom: 16px;
+  margin-bottom: 0;
   font-weight: 700;
-  height: 8px;
 }
 
 .education-time {
   color: #828282;
   font-size: 12px;
-  line-height: 2;
+  line-height: 1;
   margin-bottom: 18px;
   font-weight: 400;
-  height: 12px;
+  margin-top: 0;
 }
 
 .education-item {
   color: #595959;
   font-size: 14px;
   line-height: 1.714;
-  margin-bottom: 10px;
+  margin-bottom: 0;
+  margin-top: 0;
   font-weight: 400;
 }
 .education-itemlist {
@@ -237,7 +237,12 @@ img {
   display: inline-block;
   border-radius: 5px;
   background-color: white;
-  padding: 3px;
+  padding: 6px;
+  height: 170px;
+}
+.qr-image {
+  height: 100%;
+  width: 100%;
 }
 .skills-title {
   font-size: 22px;
@@ -291,10 +296,10 @@ img {
 }
 
 .right-side {
-  padding-left: 80px;
-  padding-right: 100px;
+  padding-left: 60px;
+  padding-right: 50px;
   padding-top: 30px;
-  padding-bottom: 68px;
+  padding-bottom: 20px;
   width: 830px;
 }
 /* .widget {
@@ -325,6 +330,7 @@ img {
 .widget-link:active {
   box-shadow: inset 0px 2px 5px 0px #ff6b0896;
 }
+
 body {
   background-color: #f5f7fa;
   padding: 40px;
